@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Cronograma de Proyecto" company="" webLink="http://" view-date="2026-11-24" view-index="1" gantt-divider-location="421" resource-divider-location="300" version="3.3.3322" locale="es_ES">
+    <description><![CDATA[Cronograma con código de colores por integrante y grupos de responsabilidad compartida:
+- Azul Rey (#2563eb): Ingrid y equipo
+- Rosa / Magenta (#ec4899): Aracely (Individual)
+- Morado (#7c3aed): Compartida - Aracely, Daniela, Christian, Ingrid
+- Naranja (#ea580c): Compartida - Omar, Georgina, Ingrid, Christian
+- Turquesa (#0891b2): Compartida - Aracely, Ingrid, Daniela, Georgina
+- Verde Esmeralda (#16a34a): Todo el equipo]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="231" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="87" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="87" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#ccff00 #33ffff #ffff00 #ff9999 #cc00cc #006633 #ff0066 #ffcccc #66ff33 #0066ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="2a9205ca8888488a91cfc29850044b3e" name="A. Organización del equipo y revisión de avances" color="#ff0066" meeting="false" start="2026-11-25" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="1" uid="323012b43e6f455199b44167aa961560" name="B. Verificación de Firebase; C1. Revisión de encuesta; C2. Definición de necesidades; F1. Inicio de navegación, bienvenida y catálogo; F2. Arquitectura y estructura de datos" color="#33ffff" meeting="false" start="2026-11-26" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Aracely, Daniela, Christian, Ingrid.]]></notes>
+        </task>
+        <task id="2" uid="a33558ace8a94bd1986464bfac5764ea" name="Reunión R1: revisar organización, asignaciones y configuración de Firebase" color="#0066ff" meeting="false" start="2026-11-26" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="3" uid="aad7f68e165247abb852ca6fb77b9bca" name="D. Definición de criterios de aceptación y funcionalidades pendientes" color="#cc00cc" meeting="false" start="2026-11-27" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsable individual: Aracely.]]></notes>
+        </task>
+        <task id="4" uid="3e62c8c8fb244801998384432a4caaf2" name="E. Actualización del cronograma PERT-CPM; G. Validación de interfaces; H3. Administración de productos y estados de pedidos" color="#ffff00" meeting="false" start="2026-11-28" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Omar, Georgina, Ingrid, Christian.]]></notes>
+        </task>
+        <task id="5" uid="8b289ab564ab476ea8132f772086e1c8" name="Reunión R2: revisar avances de los módulos e identificar dificultades" color="#0066ff" meeting="false" start="2026-11-29" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="6" uid="439c218dca0b4e3ead563da3b7b57696" name="H1. Autenticación y conexión del catálogo con Firebase; H2. Detalle de productos, carrito y registro de pedidos" color="#ccff00" meeting="false" start="2026-11-29" duration="3" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Aracely, Ingrid, Daniela, Georgina.]]></notes>
+        </task>
+        <task id="7" uid="ddb659662c334cdd873545a6dcace4db" name="I. Integración de módulos y conexión con Firebase" color="#00cccc" meeting="false" start="2026-12-02" duration="2" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Todo el equipo.]]></notes>
+        </task>
+        <task id="8" uid="6bc27878101447e1afd2f8dddc84ddd7" name="Reunión R3: revisar la integración y el funcionamiento de los módulos" color="#0066ff" meeting="false" start="2026-12-03" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="9" uid="eb2a843e3283438eb31748d2d9f11981" name="J. Realizar pruebas funcionales" color="#00cccc" meeting="false" start="2026-12-04" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Todo el equipo.]]></notes>
+        </task>
+        <task id="10" uid="0c63ebeea1da482782c94eb1227bbc20" name="K. Corregir errores y verificar criterios de aceptación" color="#00cccc" meeting="false" start="2026-12-05" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Todo el equipo.
+]]></notes>
+        </task>
+        <task id="11" uid="26a55552ac2c40669ff34bee1bd0c4c4" name="L. Recopilar evidencias, capturas y documentación técnica" color="#00cccc" meeting="false" start="2026-12-06" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Todo el equipo.]]></notes>
+        </task>
+        <task id="12" uid="655b5e6a77214ea0a77caddae1b36644" name="Reunión R4: revisar pruebas, errores detectados y evidencias" color="#0066ff" meeting="false" start="2026-12-06" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="13" uid="8ad4f50161564a0eb31d5312364c0e7c" name="M. Preparar la versión final y revisar la documentación" color="#ff0066" meeting="false" start="2026-12-07" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="14" uid="b4161ff78dee451aa3b89fe63a669e1b" name="O. Revisión general, ensayo de exposición y últimos ajustes" color="#00cccc" meeting="false" start="2026-12-08" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables compartidos: Todo el equipo.]]></notes>
+        </task>
+        <task id="15" uid="4bc7bf6c08e243fabe6ded81ab92a618" name="Reunión R5: revisión final y organización de la presentación" color="#0066ff" meeting="false" start="2026-12-07" duration="1" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+        <task id="16" uid="57598906fdd145edbf405eb719df8f52" name="N. Presentación, demostración y entrega final del proyecto" color="#ff0066" meeting="true" start="2026-12-09" duration="0" complete="0" expand="true">
+            <notes><![CDATA[Responsables: Ingrid y equipo.]]></notes>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ingrid Natalia Sánchez Nicanor" function="Default:1" contacts="ingridsn2201@gmail.com" phone="55 1644 7723"/>
+        <resource id="1" name="Aracely Cayetano Modesto " function="Default:0" contacts="aracelymodesto2021@hotmail.com" phone="55 6376 6489"/>
+        <resource id="2" name="Daniela Gómez Medina " function="Default:0" contacts="danydans375@gmail.com" phone="55 1177 3900"/>
+        <resource id="3" name="Christian Agustín Luna García" function="Default:0" contacts="lunagarciachristianagustin@gmail.com" phone="55 7376 1112"/>
+        <resource id="4" name="Omar Escamilla Encinas " function="Default:0" contacts="omar.esc" phone="56 2598 7721"/>
+        <resource id="5" name="Georgina García González" function="Default:0" contacts="geo01gar1@gmail.com" phone="55 7483 5242"/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="5" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
